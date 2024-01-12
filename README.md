@@ -6,6 +6,7 @@ This is the implementaion for the paper **Interpretable Outlier Summarization**
 python 3.7.0  
 Numpy 1.19.4  
 Sklearn 0.0
+Tqdm 4.65.0
 
 ## Datasets
 All the datasets are provided [here](https://drive.google.com/drive/folders/1kINie6My69DxtM5aGtZiPpRX81qOkJRs?usp=sharing). you can download them and move them into the folder `data`. The content under the folder `data` should be:
@@ -41,6 +42,37 @@ If you need to run the algorithm **L-STAIR** on the dataset `PageBlock`, you can
 python lstair_main.py PageBlock
 ```
 If you need to run the algorithms on other dataset, simply change the dataset name `PageBlock` into other names such as `Pendigits`, `Pima` and so on.
+
+If you need to run the algorithm **Explanation Tbale**, you can use the following commands:
+```
+cd explanation_table 
+python explanation_table_main.py Pendigits
+```
+If you need to run the algorithms on other dataset, simply change the dataset name `Pendigits` into other names such as `PageBlock`, `Pima` and so on.
+
+If you need to run the algorithm **RIPPERk**, you can use the following commands:
+```
+cd RIPPERk 
+python ripperk_main.py Pendigits
+```
+If you need to run the algorithms on other dataset, simply change the dataset name `Pendigits` into other names such as `PageBlock`, `Pima` and so on.
+
+
+If you need to run the algorithm **HiCS**, you can use the following commands:
+```
+cd explanation_table 
+python explanation_table_main.py Pendigits
+```
+If you need to run the algorithms on other dataset, simply change the dataset name `Pendigits` into other names such as `PageBlock`, `Pima` and so on.
+
+If you need to run the algorithm **CORELS**, you can use the following commands:
+```
+cd CORELS 
+python corels_main.py Pendigits
+```
+If you need to run the algorithms on other dataset, simply change the dataset name `Pendigits` into other names such as `PageBlock`, `Pima` and so on.
+
+
 
 ### MultiClass Classification Task
 For Classification datasets, you need to first enter the `MultiClassClassification` folder:
