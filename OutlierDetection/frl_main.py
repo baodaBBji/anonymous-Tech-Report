@@ -9,25 +9,7 @@ import numpy as np
 from load_data import load_data
 
 def main(dataset):
-    # 定义数据文件路径7
-    X, y, lof_krange, N_range, knn_krange, if_range, mahalanobis_N_range = load_data(dataset,
-                                                                                         data_dir=data_dir)
-    X, y = np.array(X), np.array(y)
-
-
-    def run_lof(X, y, num_outliers=560, k=60):
-        clf = LocalOutlierFactor(n_neighbors=k)
-        clf.fit(X)
-        lof_scores = -clf.negative_outlier_factor_
-        threshold = np.sort(lof_scores)[::-1][num_outliers]
-        lof_predictions = np.array(lof_scores > threshold)
-        lof_predictions = np.array([int(i) for i in lof_predictions])
-        return lof_predictions, lof_scores
-
-
-    lof_predictions, lof_scores = run_lof(X, y, k=lof_krange[7], num_outliers=int(np.sum(y)))
-    
-    file_path = 'pendigits.csv'
+    file_path = 'Thursday-01-03-2018_processed.csv'
 
     # 加载和预处理数据
     raw_data = load_data(file_path)

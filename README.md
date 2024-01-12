@@ -4,9 +4,11 @@ This is the implementaion for the paper **Interpretable Outlier Summarization**
 
 ## Requirements
 python 3.7.0  
-Numpy 1.19.4  
-Sklearn 0.0
-Tqdm 4.65.0
+numpy 1.19.4  
+sklearn 0.0
+tqdm 4.65.0
+corels 1.1.29
+wittgenstein 0.3.4
 
 ## Datasets
 All the datasets are provided [here](https://drive.google.com/drive/folders/1kINie6My69DxtM5aGtZiPpRX81qOkJRs?usp=sharing). you can download them and move them into the folder `data`. The content under the folder `data` should be:
@@ -45,29 +47,34 @@ If you need to run the algorithms on other dataset, simply change the dataset na
 
 If you need to run the algorithm **Explanation Tbale**, you can use the following commands:
 ```
-cd explanation_table 
 python explanation_table_main.py Pendigits
 ```
 If you need to run the algorithms on other dataset, simply change the dataset name `Pendigits` into other names such as `PageBlock`, `Pima` and so on.
 
 If you need to run the algorithm **RIPPERk**, you can use the following commands:
 ```
-cd RIPPERk 
 python ripperk_main.py Pendigits
 ```
 If you need to run the algorithms on other dataset, simply change the dataset name `Pendigits` into other names such as `PageBlock`, `Pima` and so on.
 
-
 If you need to run the algorithm **HiCS**, you can use the following commands:
 ```
-cd explanation_table 
-python explanation_table_main.py Pendigits
+git clone https://github.com/nim-lang/Nim.git
+cd Nim
+./build_all.sh (for linux)
+HiCS -- csvIn <file>
 ```
 If you need to run the algorithms on other dataset, simply change the dataset name `Pendigits` into other names such as `PageBlock`, `Pima` and so on.
 
+If you need to run the algorithm **FRL**, you can use the following commands:
+```
+python frl_main.py Pendigits
+```
+If you need to run the algorithms on other dataset, simply change the dataset name `Pendigits` into other names such as `PageBlock`, `Pima` and so on.
+
+
 If you need to run the algorithm **CORELS**, you can use the following commands:
 ```
-cd CORELS 
 python corels_main.py Pendigits
 ```
 If you need to run the algorithms on other dataset, simply change the dataset name `Pendigits` into other names such as `PageBlock`, `Pima` and so on.
