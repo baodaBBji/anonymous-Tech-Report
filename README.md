@@ -45,35 +45,35 @@ python lstair_main.py PageBlock
 ```
 If you need to run the algorithms on other dataset, simply change the dataset name `PageBlock` into other names such as `Pendigits`, `Pima` and so on.
 
-If you need to run the algorithm **Explanation Tbale**, you can use the following commands:
+If you need to run the algorithm **Explanation Tbale** on the dataset `Pendigits`, you can use the following commands:
 ```
 python explanation_table_main.py Pendigits
 ```
 If you need to run the algorithms on other dataset, simply change the dataset name `Pendigits` into other names such as `PageBlock`, `Pima` and so on.
 
-If you need to run the algorithm **RIPPERk**, you can use the following commands:
+If you need to run the algorithm **RIPPERk** on the dataset `Pendigits`, you can use the following commands:
 ```
 python ripperk_main.py Pendigits
 ```
 If you need to run the algorithms on other dataset, simply change the dataset name `Pendigits` into other names such as `PageBlock`, `Pima` and so on.
 
-If you need to run the algorithm **HiCS**, you can use the following commands:
+If you need to run the algorithm **HiCS** on the dataset `Pendigits`, you can use the following commands:
 ```
 git clone https://github.com/nim-lang/Nim.git
 cd Nim
 ./build_all.sh (for linux)
-HiCS -- csvIn <file>
+HiCS -- csvIn Pendigits
 ```
 If you need to run the algorithms on other dataset, simply change the dataset name `Pendigits` into other names such as `PageBlock`, `Pima` and so on.
 
-If you need to run the algorithm **FRL**, you can use the following commands:
+If you need to run the algorithm **FRL** on the dataset `Pendigits`, you can use the following commands:
 ```
 python frl_main.py Pendigits
 ```
 If you need to run the algorithms on other dataset, simply change the dataset name `Pendigits` into other names such as `PageBlock`, `Pima` and so on.
 
 
-If you need to run the algorithm **CORELS**, you can use the following commands:
+If you need to run the algorithm **CORELS** on the dataset `Pendigits`, you can use the following commands:
 ```
 python corels_main.py Pendigits
 ```
