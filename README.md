@@ -5,10 +5,10 @@ This is the implementaion for the paper **Interpretable Outlier Summarization**
 ## Requirements
 python 3.7.0  
 numpy 1.19.4  
-scikit-learn 1.2.2
-tqdm 4.65.0
-corels 1.1.29
-wittgenstein 0.3.4
+scikit-learn 1.2.2  
+tqdm 4.65.0  
+corels 1.1.29  
+wittgenstein 0.3.4  
 
 ## Datasets
 All the datasets are provided [here](https://drive.google.com/drive/folders/1kINie6My69DxtM5aGtZiPpRX81qOkJRs?usp=sharing). you can download them and move them into the folder `data`. The content under the folder `data` should be:
