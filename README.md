@@ -6,7 +6,6 @@ This is the implementaion for the paper **Interpretable Outlier Summarization**
 python 3.7.0  
 numpy 1.19.4  
 scikit-learn 1.2.2
-
 tqdm 4.65.0
 corels 1.1.29
 wittgenstein 0.3.4
